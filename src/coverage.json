@@ -1,0 +1,118 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T19:03:05.809Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 8,
+    "implemented": 7,
+    "items": [
+      {
+        "id": "REQ-21",
+        "summary": "Remove all 'Learn More' sections that contain VideoEmbed components from the Overview page",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Overview.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Overview.tsx"
+        ]
+      },
+      {
+        "id": "REQ-22",
+        "summary": "Remove all 'Learn More' sections that contain VideoEmbed components from the Solar Heating Systems page",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/SolarHeating.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/SolarHeating.tsx"
+        ]
+      },
+      {
+        "id": "REQ-23",
+        "summary": "Remove all 'Learn More' sections that contain VideoEmbed components from the Solar Cells/Photovoltaic page",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/SolarCells.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/SolarCells.tsx"
+        ]
+      },
+      {
+        "id": "REQ-24",
+        "summary": "Remove all 'Learn More' sections that contain VideoEmbed components from the Hydropower page",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Hydropower.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Hydropower.tsx"
+        ]
+      },
+      {
+        "id": "REQ-25",
+        "summary": "Remove all 'Learn More' sections that contain VideoEmbed components from the Wind Power page",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/WindPower.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/WindPower.tsx"
+        ]
+      },
+      {
+        "id": "REQ-26",
+        "summary": "Remove all 'Learn More' sections that contain VideoEmbed components from the Geothermal Energy page",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Geothermal.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Geothermal.tsx"
+        ]
+      },
+      {
+        "id": "REQ-27",
+        "summary": "Remove all 'Learn More' sections that contain VideoEmbed components from the Biomass page",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Biomass.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Biomass.tsx"
+        ]
+      },
+      {
+        "id": "REQ-28",
+        "summary": "Remove all 'Learn More' sections that contain VideoEmbed components from the Biofuels page",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/pages/Biofuels.tsx"
+        ],
+        "matchedFiles": []
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-implementation-plan.json",
+    "frontend/src/pages/Biomass.tsx",
+    "frontend/src/pages/Geothermal.tsx",
+    "frontend/src/pages/Hydropower.tsx",
+    "frontend/src/pages/Overview.tsx",
+    "frontend/src/pages/SolarCells.tsx",
+    "frontend/src/pages/SolarHeating.tsx",
+    "frontend/src/pages/WindPower.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

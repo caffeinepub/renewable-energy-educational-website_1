@@ -1,0 +1,26 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T19:03:05.806Z",
+  "summary": "The diff shows that 'Learn More' sections with VideoEmbed components have been removed from 7 out of 8 required pages. All modified files show only imports for standard UI components and shared components (excluding VideoEmbed), with content focusing on educational information, diagrams, fact boxes, tables, and cards. The Biofuels page was not modified according to the diff, indicating REQ-28 may not be implemented.",
+  "missing_requirements": [
+    {
+      "id": "REQ-28",
+      "requirement": "Remove all 'Learn More' sections that contain VideoEmbed components from the Biofuels page",
+      "reason": "The Biofuels page is not listed in the modified files. Only 7 pages were modified (Biomass, Geothermal, Hydropower, Overview, SolarCells, SolarHeating, WindPower), but the BuildRequest requires modifications to 8 pages including Biofuels.",
+      "evidence": []
+    }
+  ],
+  "hallucinated_features": [],
+  "confidence": 0.85,
+  "changed_files": [
+    "frontend/src/pages/Biomass.tsx",
+    "frontend/src/pages/Geothermal.tsx",
+    "frontend/src/pages/Hydropower.tsx",
+    "frontend/src/pages/Overview.tsx",
+    "frontend/src/pages/SolarCells.tsx",
+    "frontend/src/pages/SolarHeating.tsx",
+    "frontend/src/pages/WindPower.tsx",
+    "project_state.json"
+  ]
+}

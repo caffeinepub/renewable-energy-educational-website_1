@@ -1,0 +1,157 @@
+{
+  "kind": "build_request",
+  "title": "Remove 'Learn More' sections with embedded videos from all pages",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-21",
+      "text": "Remove all 'Learn More' sections that contain VideoEmbed components from the Overview page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "take out the learn more part with the music video of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Overview page",
+        "Page layout remains clean and properly structured after removal"
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "text": "Remove all 'Learn More' sections that contain VideoEmbed components from the Solar Heating Systems page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "take out the learn more part with the music video of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Solar Heating page",
+        "Page content flows naturally without video embed sections"
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "text": "Remove all 'Learn More' sections that contain VideoEmbed components from the Solar Cells/Photovoltaic page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "take out the learn more part with the music video of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Solar Cells page",
+        "Educational content remains intact without video sections"
+      ]
+    },
+    {
+      "id": "REQ-24",
+      "text": "Remove all 'Learn More' sections that contain VideoEmbed components from the Hydropower page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "take out the learn more part with the music video of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Hydropower page",
+        "Page maintains proper structure without video embed sections"
+      ]
+    },
+    {
+      "id": "REQ-25",
+      "text": "Remove all 'Learn More' sections that contain VideoEmbed components from the Wind Power page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "take out the learn more part with the music video of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Wind Power page",
+        "Animated turbine and other content remain unaffected"
+      ]
+    },
+    {
+      "id": "REQ-26",
+      "text": "Remove all 'Learn More' sections that contain VideoEmbed components from the Geothermal Energy page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "take out the learn more part with the music video of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Geothermal page",
+        "Diagrams and fact boxes remain properly displayed"
+      ]
+    },
+    {
+      "id": "REQ-27",
+      "text": "Remove all 'Learn More' sections that contain VideoEmbed components from the Biomass page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "take out the learn more part with the music video of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Biomass page",
+        "Carbon cycle diagram and tables remain visible and functional"
+      ]
+    },
+    {
+      "id": "REQ-28",
+      "text": "Remove all 'Learn More' sections that contain VideoEmbed components from the Biofuels page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "take out the learn more part with the music video of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Biofuels page",
+        "Production flowchart and benefit cards remain properly displayed"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the VideoEmbed component itself in frontend/src/components/shared/VideoEmbed.tsx",
+    "Preserve all other page content including diagrams, fact boxes, tables, and cards",
+    "Maintain existing page structure and styling after removal"
+  ],
+  "nonGoals": [
+    "Removing any non-video content from the pages",
+    "Modifying the VideoEmbed component implementation",
+    "Changing the layout or styling of remaining page elements"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

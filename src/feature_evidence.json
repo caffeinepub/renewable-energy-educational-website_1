@@ -1,0 +1,131 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-remove-all-learn-more-sections-that-contain-videoembed-components-from-the-overview-page",
+      "featureTitle": "Remove all 'Learn More' sections that contain VideoEmbed components from the Overview page",
+      "files": [
+        "frontend/src/pages/Overview.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-21"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-all-learn-more-sections-that-contain-videoembed-components-from-the-solar-heating-systems-page",
+      "featureTitle": "Remove all 'Learn More' sections that contain VideoEmbed components from the Solar Heating Systems page",
+      "files": [
+        "frontend/src/pages/SolarHeating.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-all-learn-more-sections-that-contain-videoembed-components-from-the-solar-cells-photovoltaic-page",
+      "featureTitle": "Remove all 'Learn More' sections that contain VideoEmbed components from the Solar Cells/Photovoltaic page",
+      "files": [
+        "frontend/src/pages/SolarCells.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-23"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-all-learn-more-sections-that-contain-videoembed-components-from-the-hydropower-page",
+      "featureTitle": "Remove all 'Learn More' sections that contain VideoEmbed components from the Hydropower page",
+      "files": [
+        "frontend/src/pages/Hydropower.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-24"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-all-learn-more-sections-that-contain-videoembed-components-from-the-wind-power-page",
+      "featureTitle": "Remove all 'Learn More' sections that contain VideoEmbed components from the Wind Power page",
+      "files": [
+        "frontend/src/pages/WindPower.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-25"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-all-learn-more-sections-that-contain-videoembed-components-from-the-geothermal-energy-page",
+      "featureTitle": "Remove all 'Learn More' sections that contain VideoEmbed components from the Geothermal Energy page",
+      "files": [
+        "frontend/src/pages/Geothermal.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-26"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-all-learn-more-sections-that-contain-videoembed-components-from-the-biomass-page",
+      "featureTitle": "Remove all 'Learn More' sections that contain VideoEmbed components from the Biomass page",
+      "files": [
+        "frontend/src/pages/Biomass.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-27"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

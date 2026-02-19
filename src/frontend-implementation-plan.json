@@ -1,0 +1,127 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Remove 'Learn More' sections with embedded videos from all pages",
+  "requirements": [
+    {
+      "id": "REQ-21",
+      "summary": "Remove all 'Learn More' sections containing VideoEmbed components from the Overview page",
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Overview page",
+        "Page layout remains clean and properly structured after removal"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Overview.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Learn More' section containing VideoEmbed component from the Overview page. Preserve hero section, animated statistics, FAQ section, climate action benefit cards, and fact boxes. Maintain existing page structure and styling."
+        }
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "summary": "Remove all 'Learn More' sections containing VideoEmbed components from the Solar Heating Systems page",
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Solar Heating page",
+        "Page content flows naturally without video embed sections"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/SolarHeating.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Learn More' section containing VideoEmbed component from the Solar Heating Systems page. Preserve educational content about solar thermal heating, heat transfer diagrams, step-by-step processes, and efficiency comparisons. Maintain existing page structure and styling."
+        }
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "summary": "Remove all 'Learn More' sections containing VideoEmbed components from the Solar Cells/Photovoltaic page",
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Solar Cells page",
+        "Educational content remains intact without video sections"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/SolarCells.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Learn More' section containing VideoEmbed component from the Solar Cells/Photovoltaic page. Preserve educational content about photovoltaic cells, photoelectric effect explanations, PVDiagram component, silicon semiconductor material descriptions, and tables. Maintain existing page structure and styling."
+        }
+      ]
+    },
+    {
+      "id": "REQ-24",
+      "summary": "Remove all 'Learn More' sections containing VideoEmbed components from the Hydropower page",
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Hydropower page",
+        "Page maintains proper structure without video embed sections"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Hydropower.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Learn More' section containing VideoEmbed component from the Hydropower page. Preserve educational content about hydropower generation, dam-based versus run-of-river systems comparisons, diagrams, tables, and fact boxes. Maintain existing page structure and styling."
+        }
+      ]
+    },
+    {
+      "id": "REQ-25",
+      "summary": "Remove all 'Learn More' sections containing VideoEmbed components from the Wind Power page",
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Wind Power page",
+        "Animated turbine and other content remain unaffected"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/WindPower.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Learn More' section containing VideoEmbed component from the Wind Power page. Preserve educational content about wind turbine technology, AnimatedTurbine component, turbine component descriptions, offshore wind facts, and all other page elements. Maintain existing page structure and styling."
+        }
+      ]
+    },
+    {
+      "id": "REQ-26",
+      "summary": "Remove all 'Learn More' sections containing VideoEmbed components from the Geothermal Energy page",
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Geothermal page",
+        "Diagrams and fact boxes remain properly displayed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Geothermal.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Learn More' section containing VideoEmbed component from the Geothermal Energy page. Preserve educational content about Earth's internal heat, power plant operations, three types of geothermal plants (dry steam, flash steam, binary cycle), diagrams, and fact boxes. Maintain existing page structure and styling."
+        }
+      ]
+    },
+    {
+      "id": "REQ-27",
+      "summary": "Remove all 'Learn More' sections containing VideoEmbed components from the Biomass page",
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Biomass page",
+        "Carbon cycle diagram and tables remain visible and functional"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Biomass.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Learn More' section containing VideoEmbed component from the Biomass page. Preserve educational content about biomass energy sources, conversion processes, applications, carbon cycle diagram (frontend/public/assets/generated/carbon-cycle-diagram.dim_800x600.png), tables, fact boxes, and cards. Maintain existing page structure and styling."
+        }
+      ]
+    },
+    {
+      "id": "REQ-28",
+      "summary": "Remove all 'Learn More' sections containing VideoEmbed components from the Biofuels page",
+      "acceptanceCriteria": [
+        "No 'Learn More' heading or section containing VideoEmbed component exists on the Biofuels page",
+        "Production flowchart and benefit cards remain properly displayed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Biofuels.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Learn More' section containing VideoEmbed component from the Biofuels page. Preserve educational content about biofuel types (ethanol, biodiesel, advanced biofuels), production processes, production flowchart (frontend/public/assets/generated/biofuel-flowchart.dim_800x600.png), benefit cards, and all icons. Maintain existing page structure and styling."
+        }
+      ]
+    }
+  ]
+}

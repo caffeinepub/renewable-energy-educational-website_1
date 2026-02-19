@@ -1,0 +1,8 @@
+{
+  "frontend/src/pages/Biomass.tsx": "Comprehensive educational page about biomass energy covering sources, conversion methods, carbon cycle, advantages/concerns, and comparison with fossil fuels.",
+  "frontend/src/pages/Biofuels.tsx": "Educational page about biofuels including types (ethanol, biodiesel, biogas), production processes, transportation applications, and Brazil's leadership in ethanol.",
+  "frontend/src/pages/Contact.tsx": "Contact page with a functional form for user inquiries, contact information cards, office hours, and FAQ section.",
+  "frontend/src/pages/Quiz.tsx": "Interactive quiz component with 10 questions about renewable energy, progress tracking, answer explanations, and detailed results review with explicit return type annotation on calculateScore function to resolve TypeScript strict null checking issues.",
+  "frontend/src/index.css": "Global styles with OKLCH color system including eco-friendly color palette (greens, blues, earth tones) for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with eco-friendly color tokens (eco-green, eco-blue, earth-brown) integrated into the theme system."
+}
